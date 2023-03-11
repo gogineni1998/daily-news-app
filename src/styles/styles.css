@@ -1,0 +1,97 @@
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 5px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.header {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Shantell Sans', cursive;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+}
+
+.header-item {
+    display: inline-block;
+    padding: 0px 0px 5px 10px;
+    color: red;
+    text-decoration: none;
+}
+
+hr {
+    border-style: solid;
+    border-width: 2px;
+}
+
+.item-container {
+    padding-top: 0%;
+}
+
+.card-body {
+    width: '18rem';
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: fit-content;
+}
+
+.post-item-container {
+    width: 300px;
+    word-wrap: break-word;
+    display: inline-block;
+    margin: 20px;
+    border: 5px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.post-container {
+    display: flex; 
+  flex-wrap: wrap;
+}
+
+.item-image {
+    border-radius: 20px;
+    width: 100%;
+}
+
+/* .item-by-id {
+    width: fit-content;
+    height: fit-content;
+}
+*/
+.item-id-container {
+    margin: 10px;
+}
+
+.footer-container {
+    text-align: center;
+}
+
+.footer-heading {
+    margin: 10px;
+    padding: 5px;
+}
+
+.footer-form {
+    margin: 10px;
+    padding: 5px;
+}
+
+.footer-form-input {
+    width: 30%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.footer-form-button {
+    margin: 10px;
+}
