@@ -12,7 +12,7 @@ const HomePosts = () => {
     let end = posts.posts.articles.end
     useEffect(() => {
         if(display_posts.length === 0) {
-            dispatch(fetchPosts({ page: 1, order: "asc", limit: 10 }))
+            dispatch(fetchPosts({ page: 1, order: "desc", limit: 10 }))
         }
     }, [dispatch, display_posts.length])
     const getDate = (date) => {
