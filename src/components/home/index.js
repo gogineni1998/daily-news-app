@@ -1,7 +1,6 @@
 
 import HomePosts from "./homePosts"
-import Footer from '../../components/footer'
-
+import Footer from "../footer"
 const Home = () => {
     return(
         <>

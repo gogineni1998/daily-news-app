@@ -4,7 +4,7 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom'
 import Header from './components/header'
 import Home from './components/home'
 import Contact from './components/contact'
-import PostsComponent from './components/posts'
+import Post from './components/posts'
 import  MainLayout from './layouts/mainlayout'
 
 const Router = () => {
@@ -15,7 +15,7 @@ const Router = () => {
             <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/contact' element={<Contact />} />
-                    <Route path='/article/:id' element={<PostsComponent />} />
+                    <Route path='/article/:id' element={<Post />} />
             </Routes>
             </MainLayout>
         </BrowserRouter>
