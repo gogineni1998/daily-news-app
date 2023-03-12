@@ -95,3 +95,7 @@ hr {
 .footer-form-button {
     margin: 10px;
 }
+
+ .input {
+    width: 100%;
+}

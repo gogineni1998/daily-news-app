@@ -6,7 +6,6 @@ import Home from './components/home'
 import Contact from './components/contact'
 import PostsComponent from './components/posts'
 import  MainLayout from './layouts/mainlayout'
-import Footer from './components/footer'
 
 const Router = () => {
     return (
@@ -18,9 +17,7 @@ const Router = () => {
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/article/:id' element={<PostsComponent />} />
             </Routes>
-            <hr/>
             </MainLayout>
-            <Footer />
         </BrowserRouter>
     )
 }
